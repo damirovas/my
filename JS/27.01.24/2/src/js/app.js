@@ -12,4 +12,8 @@ else if(age<18){
 }
 else{
   box.innerHTML=('zahmet olmas dogru daxil edin')
-}
+} 
+
+
+
+
