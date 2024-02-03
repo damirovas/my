@@ -1,0 +1,42 @@
+#myHeader {
+  font-size: 2em;
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  margin-top: 50px;
+  transition: 0.3s;
+}
+#myHeader:hover {
+  color: black;
+}
+
+#myLabel {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  transition: 1.1;
+  transition: 0.3s;
+}
+
+.buttons {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button {
+  width: 100px;
+  padding: 30px;
+  border-radius: 20px;
+  border: none;
+  color: whitesmoke;
+  transition: 0.3s;
+  background-color: black;
+  cursor: pointer;
+}
+.buttons button:hover {
+  color: black;
+  background-color: gray;
+  transform: translateY(20px);
+}/*# sourceMappingURL=style.css.map */

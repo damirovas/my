@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+body #myButton {
+  padding: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  background-color: gray;
+  transition: 0.3s;
+}
+body #myButton:hover {
+  color: gray;
+  background-color: black;
+}/*# sourceMappingURL=style.css.map */
