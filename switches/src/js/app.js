@@ -30,10 +30,12 @@ myButton.onclick = function(){
       
       break;
     default:
-      myLabel.textContent= "fail the exam !!!"
+      gradeLeter= "fail the exam !!!";
       
   }
 
+
+myLabel.textContent=gradeLeter
 
 }
 
