@@ -18,4 +18,4 @@ button.onclick = function() {
   } else {
     result.textContent = "Select a unit";
   }
-};
+}
