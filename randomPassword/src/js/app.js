@@ -1,6 +1,4 @@
 
-
-
 function generatePassword(length,includeLowercase,includeUppercase,includeNumbers,includeSymbols){
   const lowercaseChars ='qwertyuiopasdfghjklzxcvbnm';
   const uppercaseChars ='QWERTYUIOPASDFGHJKLZXCVBNM';
@@ -26,9 +24,9 @@ function generatePassword(length,includeLowercase,includeUppercase,includeNumber
 return password;
 
 }
-const passwordLength = 10;
+const passwordLength = 6;
 const includeLowercase=true;
-const includeUppercase=true;
+const includeUppercase=false;
 const includeNumbers= false;
 const includeSymbols= false;
 
